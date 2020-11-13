@@ -1,0 +1,11 @@
+{
+	"namespace": "transactions.avro",
+	"type": "record",
+	"name": "transactions",
+	"fields": [
+		{"name": "transaction_id", "type": ["int", "null"]},
+		{"name": "transaction_card_type", "type": ["string", "null"]},
+		{"name": "transaction_amount", "type": ["double", "null"]},
+		{"name": "transaction_datetime", "type": ["string", "null"]},
+	]
+}
